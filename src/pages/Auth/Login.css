@@ -38,7 +38,7 @@
 .shape-2 {
   width: 350px;
   height: 350px;
-  background: var(--secondary);
+  background: #7be3b4;
   bottom: -50px;
   right: -50px;
   animation-delay: -5s;
@@ -144,7 +144,7 @@
   outline: none;
   border-color: var(--primary);
   background: rgba(15, 23, 42, 0.8);
-  box-shadow: 0 0 0 4px rgba(0, 77, 160, 0.15);
+  box-shadow: 0 0 0 4px rgba(0, 154, 99, 0.15);
 }
 
 .password-toggle {
@@ -215,12 +215,12 @@
   align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  box-shadow: 0 10px 15px -3px rgba(0, 77, 160, 0.3);
+  box-shadow: 0 10px 15px -3px rgba(0, 154, 99, 0.3);
 }
 
 .login-button:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 20px 25px -5px rgba(0, 77, 160, 0.4);
+  box-shadow: 0 20px 25px -5px rgba(0, 154, 99, 0.4);
 }
 
 .login-button:active:not(:disabled) {

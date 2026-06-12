@@ -43,8 +43,8 @@ const Navbar = () => {
               <User size={20} color="white" />
             </div>
             <div className="user-info">
-              <div className="name">{user?.full_name || 'Quản trị hệ thống'}</div>
-              <div className="role">{user?.role_name || 'Quản trị viên'}</div>
+              <div className="name">{user?.full_name || 'HD Green'}</div>
+              <div className="role">{user?.role_name || 'Quản trị HD Green'}</div>
             </div>
           </div>
           

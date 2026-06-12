@@ -42,7 +42,7 @@ const Login = () => {
       <div className="login-card">
         <div className="login-header">
           <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo" className="login-logo-img" />
-          <p className="login-subtitle">Hệ thống quản trị vận tải thông minh</p>
+          <p className="login-subtitle">HD Green Admin Portal</p>
         </div>
 
         {error && (
