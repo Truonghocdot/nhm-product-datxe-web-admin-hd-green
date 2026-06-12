@@ -51,7 +51,7 @@ const ProtectedRoute = ({ children }) => {
 
 function App() {
   return (
-    <BrowserRouter basename={import.meta.env.DEV ? '/' : '/admin'} future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+    <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
       <Toaster 
         position="top-right" 
         reverseOrder={false} 
@@ -225,4 +225,3 @@ function App() {
 }
 
 export default App;
-

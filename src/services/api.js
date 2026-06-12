@@ -30,11 +30,10 @@ api.interceptors.response.use(
       localStorage.removeItem('admin_user');
       sessionStorage.removeItem('admin_token');
       sessionStorage.removeItem('admin_user');
-      window.location.href = import.meta.env.DEV ? '/login' : '/admin/login';
+      window.location.href = '/login';
     }
     return Promise.reject(error);
   }
 );
 
 export default api;
-
